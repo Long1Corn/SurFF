@@ -1,4 +1,4 @@
-# Intermetallic Crystal Nanoparticle Model
+# SurFF: Universal Model for Surface Exposure and Synthesizability Across Intermetallic Crystals
 
 ## About the Project 
 

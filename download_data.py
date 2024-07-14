@@ -5,7 +5,7 @@
 # download link for the core data files (SurFF_CoreDataFiles.zip)
 # This file contains the core data files for the SurFF project, allowing the user to run the SurFF prediction for intermetalic crystals.
 # Example usage can be found in the SurFF_Example.ipynb file.
-# https://figshare.com/s/82853778002cafffa59c (239MB)
+# https://figshare.com/s/82853778002cafffa59c (230MB)
 
 
 # download link for the all data files (SurFF_DataFiles.zip)

@@ -1,6 +1,9 @@
 # Intermetallic Crystal Nanoparticle Model
 
 ## About the Project 
+
+-----------------
+
 This github is for the project: Intermetallic Crystal Nanoparticle Model for 
 Predicting Surface Energy and Synthesizability for Catalyst Discovery.
 
@@ -16,6 +19,9 @@ of intermetallic nanoparticles for large scale catalyst screening and catalyst d
 
 
 ## Installation
+
+------------
+
 Clone the repository and install the required packages using the following commands:
 ```bash
 git clone https://github.com/Long1Corn/Intermetallic_Crystal_Nanoparticle_Model.git
@@ -33,8 +39,16 @@ python download_data.py
 
 ## Dataset
 
+--------------------
+- The relaxation trajectory is provided in [Data/Surface/Traj](Data/Surface/Traj) folder.
+- We also provide the calculated surface energy in [Data/Surface/Surface_Energy](Data/Surface/Surface_Energy) folder.
+- The coresponding structure files are provided in [Data/Surface/Structure](Data/Surface/Structure) folder.
 
-Summary of datasets
+
+![Relaxation Trajectory](img/Picture3.png)
+
+
+Summary of intermetalic surface datasets generated in this work.
 
 | Dataset      | Surfaces | DFT single point | DFT time (cpu-hr) | Notes                                                                     | File Location                      |                                                             
 |--------------|----------|------------------|-------------------|---------------------------------------------------------------------------|------------------------------------|
@@ -46,7 +60,9 @@ Summary of datasets
 
 
 ## Model
-All the trained model are provided via [saved_model](Data/saved_model) folder.
+
+-------------------
+- All the trained model are provided via [saved_model](Data/saved_model) folder.
 
 Relaxation Results
 
@@ -69,22 +85,29 @@ Single Point Results
 | Finetune | OOD     | 0.0902    | 0.3814    | 1.2926     |
 
 
-ocp e7a8745eb307e8a681a1aa9d30c36e8c41e9457e
 
 ## Predictions
-Example predictions and comparison with experimental observations.
+
+----------------------------
+- By applying SurFF, we provide the surface energy and exposure information for over 6,000 intermetallic crystals and 14 thousands surfaces.
+The results are provided in [results/all](results/all) folder.
+- Example predictions and comparison with experimental observations.
 
 ![Predictions](img/Picture2.png)
 
 ## Usage
 
+----------------------------
 [Example](Example_Usage.ipynb) of using the model to predict surface exposure and area for intermetallic crystals.
 
 
 ## License
+
+----------------------------
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Contact
-Yin Jun - yinjun98@u.nus.edu
 
+----------------------------
+Yin Jun - yinjun98@u.nus.edu
 Chen Honghao - chh22@mails.tsinghua.edu.cn

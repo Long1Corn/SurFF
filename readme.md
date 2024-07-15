@@ -24,9 +24,9 @@ of intermetallic nanoparticles for large scale catalyst screening and catalyst d
 
 Clone the repository and install the required packages using the following commands:
 ```bash
-git clone https://github.com/Long1Corn/Intermetallic_Crystal_Nanoparticle_Model.git
+git clone https://github.com/Long1Corn/SurFF.git
 
-cd Intermetallic_Crystal_Nanoparticle_Model
+cd SurFF
 
 bash install.sh
 ```
@@ -95,10 +95,15 @@ The results are provided in [results/all](results/all) folder.
 
 ![Predictions](img/Picture2.png)
 
-## Usage
+## Example Usage
 
 ----------------------------
 [Example](Example_Usage.ipynb) of using the model to predict surface exposure and area for intermetallic crystals.
+
+## Web UI
+
+---------------------------
+We also provide a web UI for users to predict surface energy and area for intermetallic crystals.
 
 
 ## License
@@ -110,4 +115,5 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ----------------------------
 Yin Jun - yinjun98@u.nus.edu
+
 Chen Honghao - chh22@mails.tsinghua.edu.cn

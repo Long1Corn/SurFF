@@ -24,9 +24,9 @@ of intermetallic nanoparticles for large scale catalyst screening and catalyst d
 
 Clone the repository and install the required packages using the following commands:
 ```bash
-git clone https://github.com/Long1Corn/Intermetallic_Crystal_Nanoparticle_Model.git
+git clone https://github.com/Long1Corn/SurFF.git
 
-cd Intermetallic_Crystal_Nanoparticle_Model
+cd SurFF
 
 bash install.sh
 ```
@@ -35,7 +35,8 @@ Required - Download files of the dataset, the trained models, and results:
 ```bash
 python download_data.py
 ```
-
+- To simply run the prediction example, you can just download `SurFF_CoreDataFiles.zip`.
+- To reproduce the complete experiment, you should download the complete dataset `SurFF_DataFiles.zip`.
 
 ## Dataset
 

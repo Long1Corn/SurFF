@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Metrics and scores
-metrics = ["Overall", "Low", "Medium", "High", "Top3", "Top5"]
+metrics = ["Overall", "Low", "Medium", "High", "Top-3", "Top-5"]
 id_scores = np.array([0.719, 0.695, 0.692, 0.771, 0.758, 0.8001])
 ood_scores = np.array([0.669, 0.666, 0.605, 0.744, 0.666, 0.8101])
 
@@ -18,15 +18,15 @@ plt.figure(figsize=(14, 6))
 plt.bar(pos - bar_width/2, id_scores, bar_width, label='ID', color='cadetblue',hatch='/')
 # add text above bar
 for i, v in enumerate(id_scores):
-    plt.text(i - bar_width/2, v, f"{v:.3f}", color='black', ha='center',
-             fontdict={'fontweight': 'bold', 'fontsize': 24})
+    plt.text(i - bar_width/2 -0.08, v+0.005, f"{v:.3f}", color='black', ha='center',
+             fontdict={'fontsize': 24})
 
 # Plotting OOD scores
 plt.bar(pos + bar_width/2, ood_scores, bar_width, label='OOD', color='mediumseagreen',hatch='|')
 # add text above bar
 for i, v in enumerate(ood_scores):
-    plt.text(i + bar_width/2, v + 0.01, f"{v:.3f}", color='black', ha='center',
-             fontdict={'fontweight': 'bold', 'fontsize': 24})
+    plt.text(i + bar_width/2 +0.08, v + 0.005, f"{v:.3f}", color='black', ha='center',
+             fontdict={'fontsize': 24})
 
 # Adding the aesthetics
 # plt.xlabel('Metric')

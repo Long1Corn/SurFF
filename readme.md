@@ -106,6 +106,16 @@ The results are provided in [results/all](results/all) folder.
 ---------------------------
 We also provide a web UI for users to predict surface energy and area for intermetallic crystals.
 
+![Web UI](img/Picture4.png)
+
+To use the web UI, please install the required packages and download the core data files.
+Then run the following command:
+```bash
+cd ocp # change the working directory to ocp
+
+python app.py
+```
+Then simply click the browser link provided in the terminal.
 
 ## License
 

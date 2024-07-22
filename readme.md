@@ -35,6 +35,7 @@ Required - Download files of the dataset, the trained models, and results:
 ```bash
 python download_data.py
 ```
+- Currently, please manually download the dataset from the link provided in the [download_data.py](download_data.py) file.
 - To simply run the prediction example, you can just download `SurFF_CoreDataFiles.zip`.
 - To reproduce the complete experiment, you should download the complete dataset `SurFF_DataFiles.zip`.
 

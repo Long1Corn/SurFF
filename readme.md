@@ -116,6 +116,7 @@ cd ocp
 python app.py 
 ```
 Then simply click the browser link provided in the terminal.
+A guide for using the web UI is provided in [Web UI Guide](ocp/Web_UI_Guide.md).
 
 ## License
 

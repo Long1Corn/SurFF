@@ -18,15 +18,15 @@ plt.figure(figsize=(7, 6))
 plt.bar(pos - bar_width / 2, dft_scores, bar_width, label='DFT', color='darkkhaki', hatch='/')
 # add text above bar
 for i, v in enumerate(dft_scores):
-    plt.text(i - bar_width/2, v + 0.01, str(round(v, 0)), color='black', ha='center',
-             fontdict={'fontweight': 'bold', 'fontsize': 24})
+    plt.text(i - bar_width/2, v + 0.05, str(round(v, 0)), color='black', ha='center',
+             fontdict={ 'fontsize': 24})
 
 # Plotting OOD scores
 plt.bar(pos + bar_width / 2, surff_scores, bar_width, label='SurFF', color='khaki', hatch='|')
 # add text above bar
 for i, v in enumerate(surff_scores):
-    plt.text(i + bar_width/2, v + 0.01, str(round(v, 2)), color='black', ha='center',
-             fontdict={'fontweight': 'bold', 'fontsize': 24})
+    plt.text(i + bar_width/2, v + 0.05, str(round(v, 2)), color='black', ha='center',
+             fontdict={ 'fontsize': 24})
 
 # Adding the aesthetics
 # plt.xlabel('Metric')

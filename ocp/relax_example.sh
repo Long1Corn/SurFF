@@ -15,7 +15,7 @@ python main.py \
 --config-yml configs/equiformer_v2_002_relax.yml \
 --checkpoint $checkpoint_pth \
 --amp \
---cpu \
+--local_rank=0 \
 --task.relax_opt.traj_dir=$traj_save_dir \
 --task.relax_opt.maxstep=0.03 \
 --task.relax_dataset.src=$relax_dataset_dir \

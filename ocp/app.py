@@ -124,6 +124,7 @@ def run_pipeline(input_path: str = r'../Data/example/crystal_structures'):
     # have to put the image in the staic content, otherwise it would not show up
     mycopy('results/example/wulff_shape', 'static/example/wullf_shape')
     img_path_list = os.listdir("static/example/wullf_shape")
+    img_path_list.sort()
     img_path_dict = {key: value for key, value in zip(output_id, img_path_list)}
 
     return output_dict, img_path_dict

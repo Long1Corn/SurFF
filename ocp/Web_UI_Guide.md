@@ -18,7 +18,8 @@ Then simply click the browser link provided in the terminal.
 
 ## Usage
 
-Upload the POSCAR files by input the folder path and click the "Submit" button.One example folder is provided in the `../Data/example/crystal_structures` folder.
+Upload the POSCAR files by input the folder path and click the "Submit" button.
+One example folder is provided in the [../Data/example/crystal_structures](../Data/example/crystal_structures) folder.
 
 To run the example, you should download the SurFF_CoreDataFiles.zip in `SurFF/`, and run following command:
 

@@ -19,6 +19,7 @@ Then simply click the browser link provided in the terminal.
 ## Usage
 
 Upload the POSCAR files by input the folder path and click the "Submit" button.
+One example folder is provided in the [../Data/example/crystal_structures](../Data/example/crystal_structures) folder.
 ![img2](app_img/img_2.png)
 
 Wait for the prediction results. The results will be displayed in the table.

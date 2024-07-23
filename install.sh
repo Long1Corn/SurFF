@@ -13,4 +13,5 @@ pip3 install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv 
 # Install other dependencies
 pip3 install ase==3.22.1 black==22.3.0 e3nn==0.4.4 matplotlib numba orjson \
              pre-commit==2.10.* pytest lmdb pyyaml submitit \
-             syrupy==3.0.6 tensorboard tqdm wandb pymatgen==2023.5.10 requests
+             syrupy==3.0.6 tensorboard tqdm wandb pymatgen==2023.5.10 requests \
+             flask

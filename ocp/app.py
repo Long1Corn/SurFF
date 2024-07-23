@@ -91,10 +91,14 @@ def run_pipeline(input_path: str = r'../Data/example/crystal_structures'):
         shutil.rmtree(bulk_dir)
         os.makedirs(bulk_dir)
 
-    lmdb_path = r"Data/example/surface_relaxation.lmdb"
+    lmdb_path = r"./data/example/surface_relaxation.lmdb"
     # delete the lmdb file if exist
     if os.path.exists(lmdb_path):
         os.remove(lmdb_path)
+    
+    lmdb_folder = os.path.dirname(lmdb_path)
+    if not os.path.exists(lmdb_folder):
+        os.makedirs(lmdb_folder)
 
     pre_process_info = run_data_preprocess_test(folder=folder, slab_dir=slab_dir, bulk_dir=bulk_dir,
                                                 lmdb_path=lmdb_path)
@@ -107,7 +111,8 @@ def run_pipeline(input_path: str = r'../Data/example/crystal_structures'):
         os.makedirs(traj_folder)
 
     results_saved_path = r"results/example"
-
+    if not os.path.exists(results_saved_path):
+        os.makedirs(results_saved_path)
     # perfom network inference
     run_infer_bash()
 

@@ -9,8 +9,8 @@ from concurrent.futures import ProcessPoolExecutor
 from functionals.process_structure_sep import process_structure_sep
 
 # data_pth = r"D:\Pyprojects\cat_particle\Data\Crystal_CIF\crystal_structure.pkl"
-bulk_dir = r"D:\Temp_Data\surface_model\surface\all\bulk"
-slab_dir = r"D:\Temp_Data\surface_model\surface\all\slab"
+bulk_dir = r"../Data/example/bulks"
+slab_dir = r"../Data/example/slabs"
 
 # create dir if not exist
 if not os.path.exists(bulk_dir):

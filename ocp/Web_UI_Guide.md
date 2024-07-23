@@ -18,7 +18,19 @@ Then simply click the browser link provided in the terminal.
 
 ## Usage
 
-Upload the POSCAR files by input the folder path and click the "Submit" button.
+Upload the POSCAR files by input the folder path and click the "Submit" button.One example folder is provided in the `../Data/example/crystal_structures` folder.
+
+To run the example, you should download the SurFF_CoreDataFiles.zip in `SurFF/`, and run following command:
+
+```bash
+unzip SurFF_CoreDataFiles.zip
+mkdir Data/example/
+mkdir ocp/results/
+mv SurFF_CoreDataFiles/Data/example/crystal_structures/ Data/example/
+mv SurFF_CoreDataFiles/ocp/checkpoints/ ocp/
+mv SurFF_CoreDataFiles/results/run_wulff.py ocp/results/
+```
+
 ![img2](app_img/img_2.png)
 
 Wait for the prediction results. The results will be displayed in the table.

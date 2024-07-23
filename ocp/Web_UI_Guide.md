@@ -29,7 +29,7 @@ mkdir Data/example/
 mkdir ocp/results/
 mv SurFF_CoreDataFiles/Data/example/crystal_structures/ Data/example/
 mv SurFF_CoreDataFiles/ocp/checkpoints/ ocp/
-mv SurFF_CoreDataFiles/results/run_wulff.py ocp/results/
+cp SurFF_CoreDataFiles/results/run_wulff.py ocp/results/
 ```
 
 ![img2](app_img/img_2.png)

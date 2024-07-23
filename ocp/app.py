@@ -108,7 +108,7 @@ def run_pipeline(input_path: str = r'../Data/example/crystal_structures'):
     # clear the folder if exist
     if os.path.exists(traj_folder):
         shutil.rmtree(traj_folder)
-        os.makedirs(traj_folder)
+    os.makedirs(traj_folder)
 
     results_saved_path = r"results/example"
     if not os.path.exists(results_saved_path):

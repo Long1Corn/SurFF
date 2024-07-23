@@ -9,7 +9,7 @@ echo "The current working directory is: $current_dir"
 traj_save_dir=traj/example
 checkpoint_pth=checkpoints/2024-03-03-23-57-52/best_checkpoint.pt
 
-relax_dataset_dir=Data/example
+relax_dataset_dir=data/example
 python main.py \
 --mode run-relaxations \
 --config-yml configs/equiformer_v2_002_relax.yml \

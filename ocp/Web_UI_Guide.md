@@ -7,7 +7,7 @@ The POSCAR files should be named using unique integer numbers.
 
 ![img0](app_img/img.png) 
 
-![img1](app_img/img_1.png)
+![img1](app_img/img_1.png) 
 
 
 ## Start the Web UI

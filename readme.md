@@ -18,11 +18,14 @@ of intermetallic nanoparticles for large scale catalyst screening and catalyst d
 ![Intermetallic Crystal Nanoparticle Model](img/Picture1.png)
 
 
-## Installation
+## Installation & System requirements
+
+The code is developed and tested on Windows 11. This section provides the instructions to install the required packages/dependencies and download the dataset.
 
 ------------
 
 Clone the repository and install the required packages using the following commands:
+The installation would take less than 5 minutes.
 ```bash
 git clone https://github.com/Long1Corn/SurFF.git
 
@@ -36,8 +39,8 @@ Required - Download files of the dataset, the trained models, and results:
 python download_data.py
 ```
 - Currently, please manually download the dataset from the link provided in the [download_data.py](download_data.py) file.
-- To simply run the prediction example, you can just download `SurFF_CoreDataFiles.zip`.
-- To reproduce the complete experiment, you should download the complete dataset `SurFF_DataFiles.zip`.
+- To simply run the prediction example, you can just download `SurFF_CoreDataFiles.zip`(130MB).
+- To reproduce the complete experiment, you should download the complete dataset `SurFF_DataFiles.zip`(4.6GB).
 
 ## Dataset
 
@@ -101,6 +104,8 @@ The results are provided in [results/all](results/all) folder.
 
 ----------------------------
 [Example](Example_Usage.ipynb) of using the model to predict surface exposure and area for intermetallic crystals.
+The sample codes would take less than 15 minutes to run, exclude the time for downloading the dataset.
+
 
 ## Web UI
 
@@ -117,6 +122,10 @@ python app.py
 ```
 Then simply click the browser link provided in the terminal.
 A guide for using the web UI is provided in [Web UI Guide](ocp/Web_UI_Guide.md).
+
+## Reproduction instructions
+To reproduce the complete experiment, please download the complete dataset `SurFF_DataFiles.zip`(4.6GB).
+The model training configuration and hyperparameters are provided in [config](ocp/configs) folder. Please refer to the SI of the paper for more details.
 
 ## License
 

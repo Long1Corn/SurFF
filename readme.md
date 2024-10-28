@@ -20,7 +20,7 @@ of intermetallic nanoparticles for large scale catalyst screening and catalyst d
 
 ## Installation & System requirements
 
-The code is developed and tested on Windows 11. This section provides the instructions to install the required packages/dependencies and download the dataset.
+The code is developed and tested on Windows 10/11 OS. This section provides the instructions to install the required packages/dependencies and download the dataset.
 
 ------------
 
